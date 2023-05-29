@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Personaje</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="tit">Personaje D&D</h1>
+        </div>
+        
+    </header>
+
+    <main>
+        <section>
+            <form id="form" class="form">
+                <div class="input">
+                    <input class="forminput" placeholder="Nombre de Personaje" id="name">
+                    <input type="number" class="forminput" placeholder="Edad" id="edad">
+                    <select class="forminput select1" id="raza">
+                        <option value="0">Humano</option>
+                        <option value="1">Semi Elfo</option>
+                        <option value="2">Elfo</option>
+                        <option value="3">Semi Orco</option>
+                        <option value="4">Enano</option>
+                        <option value="5">Tiefling</option>
+                        <option value="6">Draconiano</option>
+                        <option value="7">Gnomo</option>
+                        <option value="8">Mediano</option>
+                    </select>
+                    <select class="forminput select2" id="clase">
+                        <option value="0">Bardo</option>
+                        <option value="1">Bárbaro</option>
+                        <option value="2">Brujo</option>
+                        <option value="3">Clérigo</option>
+                        <option value="4">Druida</option>
+                        <option value="5">Explorador</option>
+                        <option value="6">Guerrero</option>
+                        <option value="7">Hechicero</option>
+                        <option value="8">Mago</option>
+                        <option value="9">Monje</option>
+                        <option value="10">Paladín</option>
+                        <option value="11">Pícaro</option>
+                    </select>
+                    <select class="forminput select2" id="sexo">
+                        <option value="0">Masculino</option>
+                        <option value="1">Femenino</option>
+                    </select>
+                    <input type="number" class="forminput" placeholder="Altura en Centimetros" name="" id="altura">
+                </div>
+                <div>
+                    <button class="crear" id="btn">Crear</button>
+                </div>
+            </form>
+
+            <p id="answer"></p>
+        </section>
+        
+    </main>
+    <footer>
+        © Pablo Moore 2023
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
